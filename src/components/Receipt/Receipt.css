@@ -1,0 +1,51 @@
+.Receipt-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  90%;
+    height: 0;
+    padding-top: 100%;
+    margin-top: 10%;
+}
+
+.Receipt-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -100%;
+}
+
+.Receipt-title-text {
+  font-size: 1.8vh;
+  color: #A0A0A0;
+  font-family: GilroySemibold;
+}
+
+.Receipt-price-block {
+  margin-top: 1%;
+}
+
+.Receipt-price-text-big {
+  font-size: 5vh;
+  font-weight: bold;
+  font-family: GilroyBold;
+}
+
+.Receipt-price-text-small {
+  font-size: 2.5vh;
+  font-weight: bold;
+  padding-right: 2%;
+  font-family: GilroyBold;
+}
+
+.Receipt-usecard-label {
+  margin-top: 3%;
+  color: #00923A;
+  font-size: 2.8vh;
+  text-align: center;
+  display: block;
+  white-space: pre-wrap;
+  font-family: GilroySemibold;
+}

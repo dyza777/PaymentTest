@@ -1,0 +1,32 @@
+.App {
+  height: 90%;
+  aspect-ratio: 9/16;
+  background-color: #34343E;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.App-content {
+  flex: 43;
+  background-color: white;
+  border-radius: 8%/4%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Arrow-container {
+  position: absolute;
+  height: 15%;
+  bottom: 3%;
+  right: 10%;
+}

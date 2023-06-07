@@ -1,0 +1,37 @@
+.Footer-button {
+  height: 40%;
+  background-color: white;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1vh;
+}
+
+.Footer-button:hover {
+  cursor: pointer;
+}
+
+.Footer-button-icon-container {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer-button-icon {
+  height: 50%;
+  flex: auto;
+  object-fit: contain;
+}
+
+.Footer-button-text {
+  font-size: 1.1vh;
+  padding-right: 10px;
+  font-family: GilroySemibold;
+}
+
+.Footer-button-text-noicon {
+  padding-left: 10px;
+}
